@@ -1,7 +1,11 @@
 use std::vec;
 
+use crate::challerger::factorial;
+
+mod data_structure;
 mod searching;
 mod sorting;
+mod challerger;
 fn main() {
     let mut ve1 = vec![6, 5, 3, 2, 8, 1];
 
@@ -11,4 +15,14 @@ fn main() {
     sorting::quick_sort(&mut lista_str);
     println!("{ve1:?}",);
     println!("{lista_str:?}",);
+    let n = 5;
+    let result = factorial::iterative_factorial(n);
+    println!("{}",result);
+    
+    let result_r = factorial::recur_factorial(n);
+    println!("{}",result_r);
+
+
+
+
 }
