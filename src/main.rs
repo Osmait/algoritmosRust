@@ -6,6 +6,7 @@ mod data_structure;
 mod searching;
 mod sorting;
 mod challerger;
+mod letcode;
 fn main() {
     let mut ve1 = vec![6, 5, 3, 2, 8, 1];
 
