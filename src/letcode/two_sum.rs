@@ -22,7 +22,7 @@ mod tests{
     fn two_sum_test() {
         let data=vec![4,7,11,15];
         let target = 11;
-        let result = vec![1,0];
+        let result= vec![1,0];
 
         assert_eq!(two_sum(data, target),result)
     }

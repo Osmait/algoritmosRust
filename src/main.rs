@@ -23,6 +23,10 @@ fn main() {
     let result_r = factorial::recur_factorial(n);
     println!("{}",result_r);
 
+    let prueba = vec!["eat", "ate", "dog", "pog"];
+    let result = letcode::group_anagrams::group_anagrams(prueba);
+    println!("{:?}",result)
+
 
 
 
