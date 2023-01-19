@@ -7,5 +7,6 @@ mod product_except_seld;
 mod is_valid_sudoku;
 mod decode;
 mod longest_consecutive;
+mod is_palindrome;
 
 
